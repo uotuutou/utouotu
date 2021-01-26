@@ -1,0 +1,102 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	overflow: hidden;
+	/*background-color: #99b3cc;*/
+	
+	background-image: url("img/bg.jpg");
+	background-size: auto 100vh;
+	background-repeat: no-repeat;
+	background-position: center top;	
+}
+
+.mo {
+    cursor: pointer;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+}
+
+.mo img {
+	width: 100%;
+  }
+
+div.mo {
+	background-size: cover;
+}
+ 
+.mo a {
+    display: inline-block;
+}
+ 
+.mo a:hover {
+	background-color: transparent; /* IE6対応 */
+}
+ 
+.mo a:hover img {
+    visibility: hidden;
+}
+
+.moal {
+	padding-top: 0px;
+	display: flex;
+	justify-content: center;
+}
+
+.moall {
+	padding-top: 0px;
+	align-items: center;
+}
+
+.a {
+	background: url("img/1.jpg") no-repeat;
+	max-width: 50vh;
+	max-height: 50vh;
+}
+
+.b {
+	background: url("img/2.jpg") no-repeat;
+	max-width: 50vh;
+	max-height: 50vh;
+}
+
+.c {
+	background: url("img/3.jpg") no-repeat;
+	max-width: 50vh;
+	max-height: 50vh;
+}
+
+.d {
+	background: url("img/4.jpg") no-repeat;
+	max-width: 50vh;
+	max-height: 50vh;
+}
+
+.e {
+	background: url("img/5.jpg") no-repeat;
+	max-width: 50vh;
+	max-height: 50vh;
+}
+
+.f {
+	background: url("img/6.jpg") no-repeat;
+	max-width: 50vh;
+	max-height: 50vh;
+}
+
+a:link {
+	color:rgb(175, 175, 175);
+}
+
+a:visited {
+	color:rgb(175, 175, 175);
+}
+
+a:hover {
+		color:rgb(175, 175, 175);
+		text-decoration:underline;
+}
